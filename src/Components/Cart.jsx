@@ -37,14 +37,15 @@ export default function Cart({ order }) {
                 
                 Hello {o.customer}! Your <EM>{o.size}</EM> Bot with <EM>{o.toppingsChecked.map(topping => `${topping.name}, `)}</EM> functionality is being prepped!
                 <br />
-                We will contact you soon!
+                <br />
+                Submit & we will contact you soon!
                 <br />
                 <br />
                 {o.instructions ? `Special Instruction:${o.instructions} has also been noted` : ''}
 
                   <Mailto email="cloudbotsbiz@gmail.com" subject={'Bot Inquiry: '+o.email} body={'User: '+o.customer+'.'+' Requires: '+o.size+' Bot with '+o.toppingsChecked.map(topping => `${topping.name}, `)+' functionality. ' + 'Special Instruction: '+o.instructions+' has also been noted'}>
                   <br />Submit Inquiry
-                  </Mailto>,
+                  </Mailto>
               </StyledCard>
             )
           })}

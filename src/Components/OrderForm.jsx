@@ -170,7 +170,7 @@ export default function OrderForm({ order, setOrder }) {
   return (
     <Form style={{ padding: '40px' }} onSubmit={e => handleSubmit(e)}>
       <Styledh3>Build Your Own Bot</Styledh3>
-      <p>Fill out the Form below, click the button then view Cart :)</p>
+      <p><center>Fill out the <b>Form</b> below, click the [<b>Button</b>] then view [<b>Cart</b>] </center></p>
       <FormGroup>
         <legend>Your Name</legend>
         <Input type="text" placeholder="Your Name" value={formState.customer} onChange={e => handleChange(e)} name="customer" data-cy="customer" />
