@@ -38,7 +38,7 @@ export default function Cart({ order }) {
                 Hello {o.customer}! Your <EM>{o.size}</EM> Bot with <EM>{o.toppingsChecked.map(topping => `${topping.name}, `)}</EM> functionality is being prepped!
                 <br />
                 <br />
-                Submit & w                                                                                                                                                                        e will contact you soon!
+                Submit & we will contact you soon!
                 <br />
                 <br />
                 {o.instructions ? `Special Instruction:${o.instructions} has also been noted` : ''}
