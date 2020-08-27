@@ -34,6 +34,8 @@ const App = () => {
       </Route>
       <center>Copyright © 2020 Cloud Bots™ 
         <br/>
+        CloudBotsBiz@Gmail.com
+        <br/>
         <a href="https://vercel.supremedm.app/">SupremeDM</a>
       </center>
     </>
