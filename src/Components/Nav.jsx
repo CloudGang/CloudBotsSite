@@ -20,7 +20,7 @@ export default function Nav() {
         <h4 style={{ color: '#28a745', textTransform: 'uppercase' }}>Cloud Bots™</h4>
       </Link>
       <div>
-        {/* <Link to="/" style={styledLink} >Home</Link> */}
+        <Link to="/shop" style={styledLink} >Shop</Link>
         <Link to="/order" style={styledLink} data-cy="orderLink">Build-A-Bot</Link>
         <Link to="/cart" style={styledLink} data-cy="cartLink">Cart</Link>
       </div>

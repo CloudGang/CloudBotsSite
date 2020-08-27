@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Route } from "react-router-dom";
 import Nav from "./Components/Nav";
+import Shop from "./Components/Shop";
 import OrderForm from "./Components/OrderForm";
 import Cart from "./Components/Cart";
 import Home from "./Components/Home";
@@ -22,12 +23,19 @@ const App = () => {
       <Route exact path="/">
         <Home />
       </Route>
+      <Route exact path="/shop">
+        <Shop />
+      </Route>
       <Route exact path="/order">
         <OrderForm order={order} setOrder={setOrder} />
       </Route>
       <Route exact path="/cart">
         <Cart order={order} />
       </Route>
+      <center>Copyright © 2020 Cloud Bots™ 
+        <br/>
+        <a href="https://vercel.supremedm.app/">SupremeDM</a>
+      </center>
     </>
   );
 };
