@@ -28,29 +28,31 @@ export default function Cart({ order }) {
 
   return (
     <StyledCartContainer>
-      {order.length !== 0 ?
-        <>
-          <h2>Your order is being processed.</h2>
-          {order.map(o => {
-            return (
-              <StyledCard>
-                
-                Hello {o.customer}! Your <EM>{o.size}</EM> Bot with <EM>{o.toppingsChecked.map(topping => `${topping.name}, `)}</EM> functionality is being prepped!
-                <br />
-                <br />
-                Submit & we will contact you soon!
-                <br />
-                <br />
-                {o.instructions ? `Special Instruction:${o.instructions} has also been noted` : ''}
+      <center>
+        {order.length !== 0 ?
+          <>
+            <h2>Your order is being processed.</h2>
+            {order.map(o => {
+              return (
+                <StyledCard>
+                  
+                  Hello {o.customer}! Your <EM>{o.size}</EM> Bot with <EM>{o.toppingsChecked.map(topping => `${topping.name}, `)}</EM> functionality is being prepped!
+                  <br />
+                  <br />
+                  Submit & we will contact you soon!
+                  <br />
+                  <br />
+                  {o.instructions ? `Special Instruction:${o.instructions} has also been noted` : ''}
 
-                  <Mailto email="cloudbotsbiz@gmail.com" subject={'Bot Inquiry: '+o.email} body={'User: '+o.customer+'.'+' Requires: '+o.size+' Bot with '+o.toppingsChecked.map(topping => `${topping.name}, `)+' functionality. ' + 'Special Instruction: '+o.instructions+' has also been noted'}>
-                  <br />Submit Inquiry
-                  </Mailto>
-              </StyledCard>
-            )
-          })}
-        </>
-        : <h2>Your Cart is empty!</h2>}
+                    <Mailto email="cloudbotsbiz@gmail.com" subject={'Bot Inquiry: '+o.email} body={'User: '+o.customer+'.'+' Requires: '+o.size+' Bot with '+o.toppingsChecked.map(topping => `${topping.name}, `)+' functionality. ' + 'Special Instruction: '+o.instructions+' has also been noted'}>
+                    <br />Submit Inquiry
+                    </Mailto>
+                </StyledCard>
+              )
+            })}
+          </>
+          : <h2>Your Cart is empty!</h2>}
+        </center>
     </StyledCartContainer>
   )
 }

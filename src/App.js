@@ -5,6 +5,7 @@ import Shop from "./Components/Shop";
 import OrderForm from "./Components/OrderForm";
 import Cart from "./Components/Cart";
 import Home from "./Components/Home";
+import "./mobile.css"
 
 const App = () => {
   const [order, setOrder] = useState([]);

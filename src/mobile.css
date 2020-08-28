@@ -1,0 +1,170 @@
+#root {
+    display: inline-box;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+/* Mobile View */
+@media only screen and (max-width: 700px) {
+    html{
+        margin:auto;
+    }
+    #root{
+        max-width: 600px;
+        margin: auto;
+    }
+    h1{
+        font-size: 0.8rem;
+    }
+    h4{
+        font-size: 0.8rem;
+    }
+    .btn{
+        width:237px;
+    }
+    #BG{
+        height: 250px;
+    }
+    div{
+        display: inline-block;
+        margin: auto;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    html{
+        margin:auto;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+    }
+    #root{
+        max-width: 600px;
+        margin: auto;
+        justify-self: auto;
+    }
+    #topdesc{
+        display:none;
+    }
+    #Title{
+        font-size: 1.5rem;
+    }
+    h1{
+        font-size: 0.3em;
+    }
+
+    h4{
+        display: none;
+    }
+    .btn{
+        width:189px;
+    }
+    #BG{
+        height: 200px;
+    }
+    div{
+        display: inline-block;
+        margin: auto;
+    }
+    nav{
+        display: block;
+        padding: 3px 3px;
+        color: black;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+    #Link{
+        padding: 0;
+        display: flex;
+        justify-self: space-around;
+        justify-content: center;
+        margin: auto;
+    }
+    body{
+        width:600px;
+        margin: auto;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+    }
+    form{
+        max-width: 600px;
+        margin: auto;
+        border: 2px solid black;
+        padding: 0px;
+    }
+    .kumGAR{
+        width: 500px;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    html{
+        margin:auto;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+    }
+    #topdesc{
+        display:none;
+    }
+    #root{
+        max-width: 400px;
+        margin: auto;
+        justify-self: auto;
+    }
+    #Title{
+        font-size: 1.5rem;
+    }
+    h1{
+        font-size: 0.3em;
+    }
+
+    h4{
+        display: none;
+    }
+    .btn{
+        width:189px;
+    }
+    #BG{
+        height: 200px;
+    }
+    div{
+        display: inline-block;
+        margin: auto;
+    }
+    nav{
+        display: block;
+        padding: 3px 3px;
+        color: black;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+    #Link{
+        padding: 0;
+        display: flex;
+        justify-self: space-around;
+        justify-content: center;
+        margin: auto;
+    }
+    body{
+        width:400px;
+        margin: auto;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+    }
+    form{
+        max-width: 400px;
+        margin: auto;
+        border: 2px solid black;
+        padding: 0px;
+    }
+    .kumGAR{
+        display: none;
+    }
+
+}

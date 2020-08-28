@@ -16,14 +16,16 @@ const styledLink = {
 export default function Nav() {
   return (
     <StyledNav>
+
       <Link to="/">
         <h4 style={{ color: '#28a745', textTransform: 'uppercase' }}>Cloud Bots™</h4>
       </Link>
-      <div>
-        <Link to="/shop" style={styledLink} >Shop</Link>
-        <Link to="/order" style={styledLink} data-cy="orderLink">Build-A-Bot</Link>
-        <Link to="/cart" style={styledLink} data-cy="cartLink">Cart</Link>
+      <div id="nav">
+        <Link id="Link" to="/shop" style={styledLink} >Shop</Link>
+        <Link id="Link" to="/order" style={styledLink} data-cy="orderLink">Build-A-Bot</Link>
+        <Link id="Link" to="/cart" style={styledLink} data-cy="cartLink">Cart</Link>
       </div>
+
     </StyledNav>
   )
 }
