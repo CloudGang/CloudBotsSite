@@ -89,6 +89,8 @@ export default function Shop() {
               Hey <b>#Instagrammers</b> Check out <b>#SupremeDM</b>!
               Continue or Start your <b>#instagram</b> messages from your PC, Share Video, Voice Notes & Photo's, Manage users who don't Follow Back & More! A great tool for business!
               SupremeDM Currently only available for <b>#Windows</b> OS
+
+              3 Versions Available for <a href="https://supremedm.e-junkie.com/">Download Now!</a>
           
           </p>
       </FormGroup>
@@ -97,26 +99,27 @@ export default function Shop() {
           <legend>SupremeGram</legend>
           <img src={img2} alt="SupremeDM"/>
           <br/>
-          <a href='https://www.fatfreecartpro.com/i/zwdt?card' style={{"display":"inline-block","background":"rgb(40, 167, 69) url(https://www.e-junkie.com/ej/images/newviewproduct.png) center/110px no-repeat","border":"none","padding":"7px 98px","borderRadius":"3px","textDecoration":"none"}}>&nbsp;</a>
+          <a href='https://www.fatfreecartpro.com/i/zxj4?card' style={{"display":"inline-block","background":"rgb(40, 167, 69) url(https://www.e-junkie.com/ej/images/newviewproduct.png) center/110px no-repeat","border":"none","padding":"7px 98px","borderRadius":"3px","textDecoration":"none"}}>&nbsp;</a>
             <p id="desc">
 
-              New <b>#Instagram</b> <b>#Bot</b> for your <b>#Desktop</b> 
-              Automates <b>#Likes</b> & <b>#Comments</b> so you don't have to. 
+              New <b>#Instagram</b> <b>#Bots</b> for your <b>#Desktop</b> 
+              Automates <b>#Likes</b>, <b>#Comments</b> & Follows so you don't have to. 
               Watch your Likes & <b>#Followers</b> increase while you do nothing!
-              v1 & v2 Available for #Download now!
+              v1 & v2 Available for <a href="https://supremedm.e-junkie.com/">#Download now!</a>
             
             </p>
       </FormGroup>
 
       <FormGroup>
-          <legend>AMFaster v1</legend>
-          <img src={img2} alt="SupremeDM"/>
+          <legend>AMFaster</legend>
+          <img src={img2} alt="AMF-IG"/>
           <br/>
           <a href='https://www.fatfreecartpro.com/i/zwdt?card' style={{"display":"inline-block","background":"rgb(40, 167, 69) url(https://www.e-junkie.com/ej/images/newviewproduct.png) center/110px no-repeat","border":"none","padding":"7px 98px","borderRadius":"3px","textDecoration":"none"}}>&nbsp;</a>
           <p id="desc">
-            Hey #Instagrammers Check out #SupremeDM!
-            Continue or Start your #instagram messages from your PC, Share Video, Voice Notes & Photo's, Manage users who don't Follow Back & More! A great tool for business!
-            SupremeDM Currently only available for #Windows OS
+              New <b>AddMeFast</b> <b>#Bots</b> for your <b>#Desktop</b>!
+              Automates <b>#Likes</b> on AddMeFast.com so you don't have to. 
+              Watch your Likes & <b>#Followers</b> increase while you do nothing!
+              v1(IG) & v2(YT) Available for <a href="https://supremedm.e-junkie.com/">#Download now!</a>
           </p>
       </FormGroup>
       
