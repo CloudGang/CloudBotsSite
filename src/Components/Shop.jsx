@@ -97,7 +97,7 @@ export default function Shop() {
 
       <FormGroup>
           <legend>SupremeGram</legend>
-          <img src={img2} alt="SupremeDM"/>
+          <img src={img2} alt="Cloud Bots - SupremeDM"/>
           <br/>
           <a href='https://www.fatfreecartpro.com/i/zxj4?card' style={{"display":"inline-block","background":"rgb(40, 167, 69) url(https://www.e-junkie.com/ej/images/newviewproduct.png) center/110px no-repeat","border":"none","padding":"7px 98px","borderRadius":"3px","textDecoration":"none"}}>&nbsp;</a>
             <p id="desc">
@@ -112,7 +112,7 @@ export default function Shop() {
 
       <FormGroup>
           <legend>AMFaster</legend>
-          <img src={img2} alt="AMF-IG"/>
+          <img src={img2} alt="Cloud Bots - AMF-IG"/>
           <br/>
           <a href='https://www.fatfreecartpro.com/i/zwdt?card' style={{"display":"inline-block","background":"rgb(40, 167, 69) url(https://www.e-junkie.com/ej/images/newviewproduct.png) center/110px no-repeat","border":"none","padding":"7px 98px","borderRadius":"3px","textDecoration":"none"}}>&nbsp;</a>
           <p id="desc">
@@ -120,6 +120,16 @@ export default function Shop() {
               Automates <b>#Likes</b> on AddMeFast.com so you don't have to. 
               Watch your Likes & <b>#Followers</b> increase while you do nothing!
               v1(IG) & v2(YT) Available for <a href="https://supremedm.e-junkie.com/">#Download now!</a>
+          </p>
+      </FormGroup>
+
+      <FormGroup>
+          <legend>Custom Bot</legend>
+          <img src={img2} alt="Cloud Bots - Custom Bot"/>
+          <br/>
+          <Link id="Link" to="/OrderForm" style={{"display":"inline-block","background":"rgb(40, 167, 69) url(https://www.e-junkie.com/ej/images/newviewproduct.png) center/110px no-repeat","border":"none","padding":"7px 98px","borderRadius":"3px","textDecoration":"none"}} >&nbsp;</Link>
+          <p id="desc">
+              <a href="https://cloudbots.vercel.app/OrderForm">Order now!</a>
           </p>
       </FormGroup>
       
