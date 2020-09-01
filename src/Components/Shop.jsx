@@ -125,7 +125,7 @@ export default function Shop() {
 
       <FormGroup>
           <legend>Custom Bot</legend>
-          <img src={img2} alt="Cloud Bots - Custom Bot"/>
+          <img src={img2} alt="Cloud Bots - Order Custom Bot"/>
           <br/>
           <Link id="Link" to="/OrderForm" style={{"display":"inline-block","background":"rgb(40, 167, 69) url(https://www.e-junkie.com/ej/images/newviewproduct.png) center/110px no-repeat","border":"none","padding":"7px 98px","borderRadius":"3px","textDecoration":"none"}} >&nbsp;</Link>
           <p id="desc">
